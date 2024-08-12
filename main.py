@@ -168,8 +168,8 @@ def automate_function(
                 margin = 0.1 * shaft_width
                 ax.set_xlim(-margin, shaft_width + margin)
                 ax.set_ylim(-margin, shaft_depth + margin)
-                ax.set_xlabel('Shaft width')
-                ax.set_ylabel('Shaft depth')
+                ax.set_xlabel('Shaft width [m]')
+                ax.set_ylabel('Shaft depth [m]')
                 ax.set_title(f'Shaft cross-section {shaft_id}')
 
                 # Add legend
